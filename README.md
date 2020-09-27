@@ -10,9 +10,8 @@ In order to deploy this project, you should create an instance on AWS Console at
 2. Locate your private key file. The key used to launch this instance is yourKey.pem
 3. Run this command, if necessary, to ensure your key is not publicly viewable.
    chmod 400 yourKey.pem
-4. Connect to your instance using its Public DNS:
-   ec2.yourPublicDNS.compute-1.amazonaws.com
-EXAMPLE:
+4. Connect to your instance using its Public DNS => ec2.yourPublicDNS.compute-1.amazonaws.com
+### EXAMPLE:
 ssh -i "yourKey.pem" ubuntu@ec2.yourPublicDNS.compute-1.amazonaws.com
 
 ## Tools
