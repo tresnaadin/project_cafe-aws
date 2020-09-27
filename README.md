@@ -18,13 +18,13 @@ ssh -i "yourKey.pem" ubuntu@ec2.yourPublicDNS.compute-1.amazonaws.com
 ## Tools
 On the terminal, use git clone to use this repo as both front end and back end.Then install dependencies:
 1. On front end, install:
-   a. Node.js
-   b. yarn
-   c. After installing yarn, use command "yarn install". It will automatically install all dependencies on back end folder project
+a. Node.js
+b. yarn
+c. After installing yarn, use command "yarn install". It will automatically install all dependencies on back end folder project
 After installing all dependencies on Front End folder, use command "yarn build"
 2. On back end, install:
-   a. postgresql
-   b. npm
-   c. After installing npm, use command "npm install". It will automatically install all dependencies on back end folder project
+a. postgresql
+b. npm
+c. After installing npm, use command "npm install". It will automatically install all dependencies on back end folder project
    
 I also use NGINX and PM2 (in order to run both front and back end terminal at once), and don't forget to setup NGINX & Postgres.
