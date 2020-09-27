@@ -8,9 +8,8 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure,
 In order to deploy this project, you should create an instance on AWS Console at EC2 service. Then do these commands:
 1. Open an SSH client.
 2. Locate your private key file. The key used to launch this instance is yourKey.pem
-3. Run this command, if necessary, to ensure your key is not publicly viewable.
-   chmod 400 yourKey.pem
-4. Connect to your instance using its Public DNS => ec2.yourPublicDNS.compute-1.amazonaws.com
+3. Run this command, if necessary, to ensure your key is not publicly viewable with command "chmod 400 yourKey.pem"
+4. Connect to your instance using its Public DNS which is "ec2.yourPublicDNS.compute-1.amazonaws.com"
 ### EXAMPLE:
 ssh -i "yourKey.pem" ubuntu@ec2.yourPublicDNS.compute-1.amazonaws.com
 
